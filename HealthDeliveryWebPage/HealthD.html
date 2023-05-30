@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEAG</title>
+    <link rel="stylesheet" href="styleH.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="imagenesS/LogoEmpresa.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="HealthD.html">Health Delivery</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Health Delivery</h1>
+            <p>Apoyando el cuidado de tu vida desde tu propio celular</p>
+        </div>
+
+    </section>
+
+    <!-------About-------->
+    <section class="project">
+        <h1>Health Delivery</h1>
+        <p>Health Delivery es un proyecto que se enfoca en desarrollar una aplicación móvil para promover hábitos de vida saludables y facilitar la planificación de comidas equilibradas. La aplicación permite a los usuarios acceder a recetas saludables, guardar sus datos en la nube y recibir recomendaciones personalizadas para mejorar su dieta. Su objetivo es brindar una herramienta práctica y accesible que promueva el bienestar y contribuya a una alimentación más saludable.</p>
+    
+        <div class="row">
+            <div class = "project-col">
+                <img src="imagenesH/Logo.png">
+                <div class="layer">
+                    <h3>Health Delivery</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="about-col">
+            <h3>Mision</h3>
+            <p>
+                La misión de Health Delivery es proporcionar la facilidad de que
+                nuestros clientes puedan crear desde un platillo hasta una semana de
+                comidas racionadas depende a sus preferencias y necesidades al
+                momento de querer crearlas, estamos enfocados a poder brindar un
+                mejor estilo de vida y hacer más fácil seguir un plan alimenticio sin
+                necesidad que tener la preocupación de no saber las proporciones
+                correctas o alimentos necesarios a consumir dependiendo a las
+                necesidades personales
+            </p>
+        </div>
+        <div class="about-col">
+            <h3>Vision</h3>
+            <p>
+                Con Health Delivery tenemos la visión de poder hacer crecer nuestra
+                visión de un mejor estilo de vida, que volteen a ver una mejor manera de
+                alimentarse sin la necesidad de tener que preocuparse por el tiempo,
+                costo o preparación de comidas ya que nosotros nos encargaremos de
+                todo ello por medio de nuestra aplicación y página web, poder hacer
+                llegar a un gran número de personas y poder animarlos a conseguir
+                esos propósitos que se propongan relacionados a su salud
+            </p>
+        </div>
+        <div class="about-col">
+            <h3>Psicologia de Colores</h3>
+            <p>
+                Rosa: Tomamos este color ya que, como el rosa representa la
+                positividad, ya que al tener un mejor estilo de alimentación obtienes una
+                vida más positiva y actitud <br>
+                Verde: Para nosotros en la empresa el verde en el logo representa salud
+                y un mejor estilo de vida alimenticio, ya que es lo que queremos llevar al
+                público en general <br>
+                Rojo: el rojo en nuestra empresa representa tanto que es llamativo para
+                que las personas volteen a ver un mejor estilo de vida
+            </p>
+        </div>
+    </section>
+
+
+    <section class="dwn">
+        <h1>Conoce nuestra aplicación mas afondo</h4>
+        <a href="" class="hero-btn">Descarga</a>
+    </section>
+
+   <section class="cta">
+        <h1>Mandanos mensaje</h1>
+   </section>
+
+   <section class="footer">
+        <h4>Contacto</h4>
+        <p>Christian Emmanuel Escalera Cerda <br>
+        alu.18131395@correo.itlalaguna.edu.mx <br>
+        Gustavo Maximiliano Ambriz Zamarripa <br>
+        alu.18131215@correo.itlalaguna.edu.mx</p>
+   </section>
+
+
+    <!------------JavaScript para Toggle Menu-------------->
+    <script>
+
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
+
+
+
+
+
